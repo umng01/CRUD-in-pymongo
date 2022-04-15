@@ -10,7 +10,7 @@ if __name__ == "__main__":
     d1 = {
         '_id': 1,
         'Name': 'Umang Sharma',
-        'RollNo': '45',
+        'RollNo': 45,
         'Branch': 'Information Technology',
         'College': 'KIET Group of Institutions',
         'Phone': 9876543210,
@@ -21,7 +21,7 @@ if __name__ == "__main__":
     d2 = {
         '_id': 2,
         'Name': 'Mehak Sharma',
-        'RollNo': '50',
+        'RollNo': 50,
         'Branch': 'English Honours',
         'College': 'Ambedkar University',
         'Phone': 987657886,
@@ -32,7 +32,7 @@ if __name__ == "__main__":
     d3 = {
         '_id': 3,
         'Name': 'Vikhyat Sharma',
-        'RollNo': '55',
+        'RollNo': 55,
         'Branch': 'CSE',
         'College': 'IIT',
         'Phone': 9343543210,
@@ -43,7 +43,7 @@ if __name__ == "__main__":
     d4 = {
         '_id': 4,
         'Name': 'Vansh Sharma',
-        'RollNo': '15',
+        'RollNo': 15,
         'Branch': 'Business Administration',
         'College': 'JIMS',
         'Phone': 88363210,
@@ -54,7 +54,7 @@ if __name__ == "__main__":
     d5 = {
         '_id': 5,
         'Name': 'Arjun Gupta',
-        'RollNo': '05',
+        'RollNo': 5,
         'Branch': 'Mechanical',
         'College': 'Jaypee Institute of Technology',
         'Phone': 898386543,
@@ -65,7 +65,7 @@ if __name__ == "__main__":
     d6 = {
         '_id': 6,
         'Name': 'Utkarsh',
-        'RollNo': '13',
+        'RollNo': 13,
         'Branch': 'Computer Science',
         'College': 'IIT Patna',
         'Phone': 6383443210,

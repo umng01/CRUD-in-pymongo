@@ -9,7 +9,7 @@ if __name__ == "__main__":
     collection = db['mySampleCollection']
 
 
-    rec = {"Name": "Bob"}
+    rec = {"Name": "Arjun Gupta"}
     collection.delete_one(rec)
 
     x = collection.delete_many(rec)
