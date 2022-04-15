@@ -82,15 +82,3 @@ if __name__ == "__main__":
     collection.insert_many(insertThese)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
