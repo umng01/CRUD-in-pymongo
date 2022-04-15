@@ -2,27 +2,80 @@ import pymongo
 
 
 if __name__ == "__main__":
-    print("Hello")
 
     client = pymongo.MongoClient("mongodb://localhost:27017/")
-    print(client)
     db = client['umang']
     collection = db['mySampleCollection']
-    # dictionary = {'name': 'Umang', 'marks': 50}
-    # collection.insert_one(dictionary)
 
-    # dictionary2 = {'name': 'UmangSh', 'marks': 60}
-    # collection.insert_one(dictionary2)
+    d1 = {
+        '_id': 1,
+        'Name': 'Umang Sharma',
+        'RollNo': '45',
+        'Branch': 'Information Technology',
+        'College': 'KIET Group of Institutions',
+        'Phone': 9876543210,
+        'GPA': 9,
+        'Gender': 'F'
 
-    # dictionary3 = {'name': 'UmangSharma', 'marks': 70}
-    # collection.insert_one(dictionary3)
+    }
+    d2 = {
+        '_id': 2,
+        'Name': 'Mehak Sharma',
+        'RollNo': '50',
+        'Branch': 'English Honours',
+        'College': 'Ambedkar University',
+        'Phone': 987657886,
+        'GPA': 8,
+        'Gender': 'F'
+
+    }
+    d3 = {
+        '_id': 3,
+        'Name': 'Vikhyat Sharma',
+        'RollNo': '55',
+        'Branch': 'CSE',
+        'College': 'IIT',
+        'Phone': 9343543210,
+        'GPA': 10,
+        'Gender': 'M'
+
+    }
+    d4 = {
+        '_id': 4,
+        'Name': 'Vansh Sharma',
+        'RollNo': '15',
+        'Branch': 'Business Administration',
+        'College': 'JIMS',
+        'Phone': 88363210,
+        'GPA': 7,
+        'Gender': 'M'
+
+    }
+    d5 = {
+        '_id': 5,
+        'Name': 'Arjun Gupta',
+        'RollNo': '05',
+        'Branch': 'Mechanical',
+        'College': 'Jaypee Institute of Technology',
+        'Phone': 898386543,
+        'GPA': 9.8,
+        'Gender': 'M'
+
+    }
+    d6 = {
+        '_id': 6,
+        'Name': 'Utkarsh',
+        'RollNo': '13',
+        'Branch': 'Computer Science',
+        'College': 'IIT Patna',
+        'Phone': 6383443210,
+        'GPA': 8,
+        'Gender': 'M'
+
+    }
 
     insertThese = [
-
-        {'_id': '1', 'Name':'Alice', 'Location': 'Delhi', 'Marks': 67},
-        {'_id': '2', 'Name':'Bob', 'Location': 'Delhi', 'Marks': 68},
-        {'_id': '3', 'Name':'Mariya', 'Location': 'Delhi', 'Marks': 69},
-        {'_id': '4', 'Name':'Ram', 'Location': 'Delhi', 'Marks': 70}
+        d1,d2,d3,d4,d5,d6
 
     ]
 
